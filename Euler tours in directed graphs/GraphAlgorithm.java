@@ -1,0 +1,21 @@
+package cs6301.g29;
+
+/**
+* Created by Nishant Shekhar (nxs167130)
+*            Anusha Agasthi  (nxa162430)
+*            Prince Patel    (pap160930)
+*/
+
+public class GraphAlgorithm<T> {
+    Graph g;
+    // Algorithm uses a parallel array for storing information about vertices
+    T[] node;
+
+    public GraphAlgorithm(Graph g) {
+	this.g = g;
+    }
+
+    T getVertex(Graph.Vertex u) {
+	return Graph.Vertex.getVertex(node, u);
+    }
+}

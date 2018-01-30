@@ -4,4 +4,4 @@
 
 >In some the bigger projects, some of the functions may not be produce 100 % correct output.
 
->All the projects have questions have thier questions inside thier respective folders. All questions have not been attempted. :)
+>All the projects have thier questions inside thier respective folders. All questions have not been attempted. :)
